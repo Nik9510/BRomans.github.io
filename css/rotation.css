@@ -1,0 +1,16 @@
+/*#ruota {
+	width: 860px;
+	height: 200px;
+	margin: 0 auto;
+	padding: 2em 0;
+}*/
+
+#ruota img {
+	cursor: pointer;
+	position: relative;
+}
+img.rotated {
+	-moz-transform: rotate(-5deg);
+	-webkit-transform: rotate(-5deg);
+	-o-transform: rotate(-5deg);
+}

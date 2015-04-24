@@ -1,0 +1,301 @@
+@font-face{
+    font-family: Brubeck;
+    src: url("brubeck.ttf");
+}
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:500);
+@import url(http://fonts.googleapis.com/css?family=Aldrich);
+
+html,{
+  min-height: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+
+}
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'IM Fell English', sans-serif;
+    font-size: 200%;
+    min-height: 100%;
+    padding-top:50px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    text-rendering: optimizeLegibility;
+    background-color: black;
+
+}
+h1, h2, h3{
+    
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    padding-bottom: 20px;
+}
+
+.imgHome{
+    width: 180px;
+    height: 400px;
+}
+.img-thumbnail{
+    width: 200px;
+    height: 140px;
+}
+
+
+.row{
+    position: relative;
+    min-height: 600px;
+    height: 100%;
+    width: inherit;
+    border: solid black 3px;
+    padding-top: 50px;
+    background: black;
+    color: white;
+}
+
+footer .row{
+    height: 200px;
+}
+.navbar{
+    background-color: black;
+    color: white;
+}
+
+
+#about-text,
+#workout-text,
+#photogallery-text,
+#weapons-text,
+#events-text {
+    background: rgba(27, 27, 27, 0.50);
+}
+#home-text,
+#about-text,
+#workout-text {
+    
+    /*position: absolute;*/
+    bottom: 0;
+}
+#home-text{
+    background: rgba(27, 27, 27,0.8);
+    position:absolute;
+}
+@media only screen and (max-width: 650px){
+#home-text,
+#about-text,
+#workout-text {
+    position: relative;
+    height: 100%;
+}
+#contacts,{
+    height: 100px;
+}
+.row{
+    min-height: 100%;
+}
+}
+
+#navbar-style{
+    background-color: black;
+    color: white;
+}
+#home{
+    height: 100%;
+    text-align: center;
+    background: url("../img/Sfondi_sito/sfondo_home.jpg");
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    margin: 0px;
+}
+#about{
+    padding-top: 200px;
+    height: 100%;
+    background: url("../img/Sfondi_sito/sfondo_about.jpg");
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    margin: 0px;
+}
+#workout{
+    background: url("../img/Sfondi_sito/sfondo_workout.jpg");
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    margin: 0px;
+}
+#weapons{
+    background: url("../img/Sfondi_sito/sfondo_weapons.jpg");
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    margin: 0px;
+    margin: 0px;
+    font-size: 85%;
+}
+#events{
+ background: url("../img/Sfondi_sito/sfondo_events.jpg");
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    margin: 0px;
+    margin: 0px;
+}
+#contacts{ 
+    min-height: 200px;
+    background: rgba(27, 27, 27, 0.50);
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    margin: 0px;
+    margin: 0px;
+}
+#photogallery{
+    background: url("../img/experiment.jpg");
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    margin: 0px;
+    margin: 0px;
+    
+}
+
+#exercises{
+    font-size: 70%;
+    
+}
+
+a {
+    
+    color: lightsteelblue;
+}
+a:hover {
+    color: #999;
+    text-decoration:none;
+}
+a {
+    -webkit-transition:all all .1s ease-out;
+    -moz-transition:all all .1s ease-out;
+    -o-transition:all all .1s ease-out;
+    transition:all all .1s ease-out;
+}
+
+
+@-webkit-keyframes bottom{0%,100% {-webkit-transform:translate(0,-20px);-moz-transform:translate(0,-20px);-o-transform:translate(0,-20px);-ms-transform:translate(0,-20px);transform:translate(0,-20px)}50%{-webkit-transform:translate(0,-35px);-moz-transform:translate(0,-35px);-o-transform:translate(0,-35px);-ms-transform:translate(0,-35px);transform:translate(0,-35px)}}
+
+@keyframes bottom {0%,100% {-webkit-transform:translate(0,-20px);-moz-transform:translate(0,-20px);-o-transform:translate(0,-20px);-ms-transform:translate(0,-20px);transform:translate(0,-20px)}50%{-webkit-transform:translate(0,-35px);-moz-transform:translate(0,-35px);-o-transform:translate(0,-35px);-ms-transform:translate(0,-35px);transform:translate(0,-35px)}}
+
+
+@media only screen and (max-width: 1200px){
+.imgHome{
+    width: 135px;
+    height: 300px;
+    margin-bottom: 10%;
+}
+.img-thumbnail{
+    height: 100px;
+    width: 160px;
+}
+}
+@media only screen and (max-width: 600px){
+.imgHome{
+    width: 90px;
+    height: 200px;
+    margin-bottom: 10%;
+}
+.img-thumbnail{
+    height: 60px;;
+    width: 100px;
+}
+}
+
+/*change font size */
+@media (min-width: 768px) {
+    h1 {
+        font-size:40px;
+    }
+    h2,h3 {
+        font-size:30px;
+    }
+    h6 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 18px;
+    }
+    
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size:30px;
+    }
+    h2,h3 {
+        font-size:20px;
+    }
+    p {
+        font-size: 13px;
+    }
+    h6{
+        font-size: 19px;
+    }
+}
+/*change collapse navbar px*/
+@media (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
